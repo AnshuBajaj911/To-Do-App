@@ -5,7 +5,7 @@ var fs = require('fs');
 var url = require('url');
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: false }))
-
+const port = process.env.PORT || 8080;
 // parse application/json
 app.use(bodyParser.json())
 
@@ -89,6 +89,6 @@ app.get('/changestatus', function (req, res) {
 })
 
 //listening port 
-app.listen(8080, function () {
+app.listen(port, function () {
   console.log('Server running at http://127.0.0.1:8080/');
 });
