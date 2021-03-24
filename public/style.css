@@ -1,0 +1,46 @@
+#tts {
+    display: table-cell;
+    vertical-align: middle;
+
+    border-right: 0px solid tomato;
+    padding: 10px;
+
+
+
+}
+
+#tts2 {
+    border-left: 2px solid black;
+    display: table-cell;
+    text-align: center;
+    padding: 10px;
+
+
+
+}
+
+#tab,
+#tts2 {
+    width: 60vw;
+}
+
+#if,
+#ip,
+#add {
+    width: 100%;
+}
+
+#add {
+    margin-top: 5px;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid black;
+
+}
+
+#tts {
+    width: 65%;
+
+}
